@@ -390,7 +390,7 @@ label {
 	}
 
 	h1:sub_h {
-		font-size: 1vh;
+		font-size: 13px;
 	}
 
 	.nav_menu {
@@ -401,11 +401,11 @@ label {
 		flex-wrap: nowrap;
 		padding-top: 4vh;
 		padding-bottom: 6px;
-		font-size: .3vh;
+		font-size: 5px;
 		font-weight: bolder;
 		font-family: 'Red Hat Display';
-		margin-right: 10%;
-	    margin-left: 10%;
+		margin-right: 5%;
+	    margin-left: 5%;
 	}
 
 	.nav_menu a {
@@ -442,6 +442,8 @@ label {
 		padding-top: 4vh;
 		justify-content: center;
 		padding-bottom: 3vh;
+		margin-right: 10%;
+		margin-left: 10%;
 	}
 
 	.logo_image {
@@ -459,7 +461,7 @@ label {
 
 	.bio {
 		text-align: center;
-		font-size: 1vh;
+		font-size: 10px;
 		display: flex;
 		flex-wrap: nowrap;
 		padding-right: 15vh;
