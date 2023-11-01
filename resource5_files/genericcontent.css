@@ -1,0 +1,42 @@
+  .generic-content__content .content-wrapper b > a {
+    font-weight: 700 !important; }
+
+  .generic-content .content-wrapper h1, .generic-content .content-wrapper h1 > a,  .generic-content .content-wrapper h1 > b ,  .generic-content .content-wrapper h1 > a > b, .generic-content .content-wrapper h1 > b > a  {
+    letter-spacing: -1px;
+    line-height: 1.15;
+    font-size: 3.75em ;
+  }    
+
+  .generic-content .content-wrapper h2,   .generic-content .content-wrapper h3,   .generic-content .content-wrapper h4,   .generic-content .content-wrapper h5,   .generic-content .content-wrapper h6,
+  .generic-content .content-wrapper h2 > a,   .generic-content .content-wrapper h3 > a,   .generic-content .content-wrapper h4 > a,   .generic-content .content-wrapper h5 > a,   .generic-content .content-wrapper h6 > a,
+  .generic-content .content-wrapper h2 > b,   .generic-content .content-wrapper h3 > b,   .generic-content .content-wrapper h4 > b,   .generic-content .content-wrapper h5 > b,   .generic-content .content-wrapper h6 > b,
+  .generic-content .content-wrapper h2 > a > b,   .generic-content .content-wrapper h3 > a > b,   .generic-content .content-wrapper h4 > a > b,   .generic-content .content-wrapper h5 > a > b,   .generic-content .content-wrapper h6 > a > b,
+  .generic-content .content-wrapper h2 > b > a,   .generic-content .content-wrapper h3 > b > a,   .generic-content .content-wrapper h4 > b > a,   .generic-content .content-wrapper h5 > b > a,   .generic-content .content-wrapper h6 > b > a {
+    font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
+    font-weight: 700 ;
+    margin: 30px 0 15px; 
+    letter-spacing:0px;
+    line-height:1.3;
+    text-transform: none !important; }
+
+.generic-content .content-wrapper h2 {
+    font-size: 2.5em ;}
+
+.generic-content .content-wrapper h3 {
+    font-size: 1.9em ;}
+
+.generic-content .content-wrapper h4 {
+    font-size: 1.4em ;}
+
+
+.generic-content .content-wrapper h5 {
+    font-size: 1.13em ;}    
+
+.generic-content .content-wrapper h6 {
+    font-size: 1em ;}
+
+    .generic-content .content-wrapper h4 b,
+    .generic-content .content-wrapper h4 u,
+    .generic-content .content-wrapper h4 i,
+    .generic-content .content-wrapper h4 a {
+      color: inherit !important; }
