@@ -47,7 +47,7 @@ body {
 }
 
 h1:sub_h {
-	font-size: 10px;
+	font-size: 15px;
 }
 
 .nav_menu {
@@ -390,7 +390,7 @@ label {
 	}
 
 	h1:sub_h {
-		font-size: 5px;
+		font-size: 12px;
 	}
 
 	.nav_menu {
@@ -401,7 +401,7 @@ label {
 		flex-wrap: nowrap;
 		padding-top: 4vh;
 		padding-bottom: 6px;
-		font-size: 5px;
+		font-size: 12px;
 		font-weight: bolder;
 		font-family: 'Red Hat Display';
 		margin-right: 5%;
@@ -442,8 +442,8 @@ label {
 		padding-top: 4vh;
 		justify-content: center;
 		padding-bottom: 3vh;
-		margin-right: 10%;
-		margin-left: 10%;
+		margin-right: 20%;
+		margin-left: 20%;
 	}
 
 	.logo_image {
