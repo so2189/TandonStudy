@@ -1,0 +1,685 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3vh;
+}
+
+.border_color {
+	width: 98%;
+	height: 98%;
+	border-radius: 15px;
+	background-color: #F1EAD2;
+}
+
+#header {
+	font-size: 8vh;
+	text-align: center;
+	line-height: 0;
+	font-family: 'Cedarville Cursive';
+}
+
+#sub-header {
+	font-size: 5vh;
+	text-align: center;
+	line-height: 0;
+	margin-top: 4%;
+	font-family: 'Cedarville Cursive';
+}
+
+body {
+	background-color: #C3A97E;
+	color: #365194;
+	display: flex;
+	padding-top: 1.5vh;
+	justify-content: center;
+	padding-bottom: 1.5vh;
+	font-family: 'Figtree';
+}
+
+.resources {
+	font-size: 3vh;
+	line-height: 30px;
+}
+
+.resource_head {
+	font-size: 8vh;
+	color: #BD959F;
+}
+
+h1:sub_h {
+	font-size: 2vh;
+}
+
+.nav_menu {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	padding-top: 8vh;
+	padding-bottom: 6px;
+	font-size: 3vh;
+	font-weight: bolder;
+	font-family: 'Cedarville Cursive';
+	margin-right: 10%;
+    margin-left: 10%;
+}
+
+.nav_menu a {
+	color: #365194;
+	text-decoration: none;
+	border-radius: 18%;
+	background: linear-gradient(120deg, #f8d568 0%, #f8d568 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 30%;
+  background-position: 0 60%;
+}
+
+.nav_menu a:hover {
+	border-radius: 50%;
+	border: 1px solid red;
+}
+
+/* CodyProgramming Background Border Radius With Linear Gradient*/
+.highlight, nav {
+	border-radius: 15%;
+	background: linear-gradient(120deg, #f8d568 0%, #f8d568 100%);
+	background-repeat: no-repeat;
+	background-size: 100% 20%;
+	background-position: 0 60%;
+}
+
+.circle {
+	border-radius: 90%;
+	border: 1px solid red;
+}
+
+.logo_image_main {
+	display: flex;
+	padding-top: 4vh;
+	justify-content: center;
+	padding-bottom: 3vh;
+}
+
+.logo_image {
+	display: flex;
+	padding-top: 10vh;
+	justify-content: center;
+}
+
+.landing_image {
+	padding-top: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bio {
+	text-align: center;
+	font-size: 5vh;
+	display: flex;
+	flex-wrap: nowrap;
+	padding-right: 25vh;
+	padding-left: 25vh;
+	padding-bottom: 5vh;
+	font-family: 'Cedarville Cursive';
+}
+
+.container {
+	display: flex;
+	flex: nowrap;
+	justify-content: space-evenly;
+}
+
+.infobox {
+	height: 20vh;
+	width: 20vh;
+	background-color: rgba(195,169,126);
+	border-radius: 20%;
+}
+
+.footer {
+	padding-top: 10vh;
+	display: flex;
+	justify-content: center;
+	font-size: 4vh;
+	font-family: 'Cedarville Cursive';
+}
+
+.question_box {
+	display: flex;
+	padding-top: 9vh;
+	justify-content: center;
+}
+
+.quest {
+	color: #BD959F;
+	font-size: 100%;
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 8%;
+	width: 50%;
+}
+
+#learn_types {
+	font-size: 4vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 3vh;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 6%;
+}
+
+#learn_types .type a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.type {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	height: 20vh;
+	width: 20vh;
+	background-color: #365194;
+}
+
+.type:hover {
+	background-color: #BD959F;
+}
+
+label {
+	margin: 6%;
+}
+
+.container {
+	display: flex;
+	line-height: 5vh;
+	display: block;
+	font-size: 22px;
+	position: relative;
+	margin-bottom: 12px;
+}
+
+.container input {
+	height: 0;
+	width: 0;
+}
+
+/* ModernCSS: Pure CSS Custom Checkbox Style */
+.checkmark {
+	border-radius: 20%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: white;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #C3A97E;;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* W3 Schools: How TO - Custom Checkbox */
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.section_row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 15vh;
+	padding-right: 15vh;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.col_1 {
+	width: 50%;
+	margin: 5%;
+}
+
+.col_2 {
+	width: 50%;
+	margin: 5%;
+	align-content: center;
+}
+
+.res_grid {
+	padding-top: 3vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.res_row {
+	display: flex;
+	justify-content: space-around;
+}
+
+.res_col {
+	flex: 1;
+	margin-right: 2vh;
+ 	margin-bottom: 2vh;
+ 	overflow: hidden;
+ 	position: relative;
+ 	background-color: #C3A97E;
+ 	justify-content: center;
+  	align-items: center;
+}
+
+.overlay {
+	z-index: 1;
+	opacity: 0;
+	position: absolute;
+	color: white;
+	display: flex;
+	transition: background 0.3s ease;
+}
+
+.res_col:hover .overlay {
+	opacity: 1;
+}
+
+.image_link {
+ 	height: 100%;
+ 	width: 100%;
+ 	object-fit: cover;
+}
+
+.img_hov:hover {
+	opacity: 0.6;
+}
+
+.loc_grid {
+	margin-right: 7%;
+	margin-left: 7%;
+	margin-top: 7%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.loc_item {
+	box-sizing: border-box;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 4%;
+}
+
+.loc_item img {
+	border-radius: 8px;
+	width: 80%;
+	height: 80%;
+	object-fit: cover;
+}
+
+.loc_item p {
+	margin-top: 8px;
+}
+
+@media only screen and (max-width: 460) {
+	.main_container {
+	  display: flex;
+	  flex-direction: column;
+	  padding-bottom: 3vh;
+	}
+
+	.border_color {
+		width: 98%;
+		height: 98%;
+		border-radius: 15px;
+		background-color: #F1EAD2;
+	}
+
+	#header {
+		font-size: 8vh;
+		text-align: center;
+		line-height: 0;
+		font-family: 'Cedarville Cursive';
+	}
+
+	#sub-header {
+		font-size: 5vh;
+		text-align: center;
+		line-height: 0;
+		margin-top: 4%;
+		font-family: 'Cedarville Cursive';
+	}
+
+	body {
+		background-color: #C3A97E;
+		color: #365194;
+		display: flex;
+		padding-top: 1.5vh;
+		justify-content: center;
+		padding-bottom: 1.5vh;
+		font-family: 'Figtree';
+	}
+
+	.resources {
+		font-size: 3vh;
+		line-height: 30px;
+	}
+
+	.resource_head {
+		font-size: 8vh;
+		color: #BD959F;
+	}
+
+	h1:sub_h {
+		font-size: 2vh;
+	}
+
+	.nav_menu {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex-wrap: nowrap;
+		padding-top: 8vh;
+		padding-bottom: 6px;
+		font-size: 3vh;
+		font-weight: bolder;
+		font-family: 'Cedarville Cursive';
+		margin-right: 10%;
+	    margin-left: 10%;
+	}
+
+	.nav_menu a {
+		color: #365194;
+		text-decoration: none;
+		border-radius: 18%;
+		background: linear-gradient(120deg, #f8d568 0%, #f8d568 100%);
+	  background-repeat: no-repeat;
+	  background-size: 100% 30%;
+	  background-position: 0 60%;
+	}
+
+	.nav_menu a:hover {
+		border-radius: 50%;
+		border: 1px solid red;
+	}
+
+	/* CodyProgramming Background Border Radius With Linear Gradient*/
+	.highlight, nav {
+		border-radius: 15%;
+		background: linear-gradient(120deg, #f8d568 0%, #f8d568 100%);
+		background-repeat: no-repeat;
+		background-size: 100% 20%;
+		background-position: 0 60%;
+	}
+
+	.circle {
+		border-radius: 90%;
+		border: 1px solid red;
+	}
+
+	.logo_image_main {
+		display: flex;
+		padding-top: 4vh;
+		justify-content: center;
+		padding-bottom: 3vh;
+	}
+
+	.logo_image {
+		display: flex;
+		padding-top: 10vh;
+		justify-content: center;
+	}
+
+	.landing_image {
+		padding-top: 10vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.bio {
+		text-align: center;
+		font-size: 5vh;
+		display: flex;
+		flex-wrap: nowrap;
+		padding-right: 25vh;
+		padding-left: 25vh;
+		padding-bottom: 5vh;
+		font-family: 'Cedarville Cursive';
+	}
+
+	.container {
+		display: flex;
+		flex: nowrap;
+		justify-content: space-evenly;
+	}
+
+	.infobox {
+		height: 20vh;
+		width: 20vh;
+		background-color: rgba(195,169,126);
+		border-radius: 20%;
+	}
+
+	.footer {
+		padding-top: 10vh;
+		display: flex;
+		justify-content: center;
+		font-size: 4vh;
+		font-family: 'Cedarville Cursive';
+	}
+
+	.question_box {
+		display: flex;
+		padding-top: 9vh;
+		justify-content: center;
+	}
+
+	.quest {
+		color: #BD959F;
+		font-size: 100%;
+		text-align: center;
+		margin-right: 5%;
+		margin-left: 5%;
+		height: 8%;
+		width: 50%;
+	}
+
+	#learn_types {
+		font-size: 4vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding-top: 3vh;
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-bottom: 6%;
+	}
+
+	#learn_types .type a {
+		text-decoration: none;
+		color: white;
+
+	}
+
+	.type {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		height: 20vh;
+		width: 20vh;
+		background-color: #365194;
+	}
+
+	.type:hover {
+		background-color: #BD959F;
+	}
+
+	label {
+		margin: 6%;
+	}
+
+	.container {
+		display: flex;
+		line-height: 5vh;
+		display: block;
+		font-size: 22px;
+		position: relative;
+		margin-bottom: 12px;
+	}
+
+	.container input {
+		height: 0;
+		width: 0;
+	}
+
+	/* ModernCSS: Pure CSS Custom Checkbox Style */
+	.checkmark {
+		border-radius: 20%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 25px;
+		width: 25px;
+		background-color: white;
+	}
+
+	.container input:checked ~ .checkmark {
+	  background-color: #C3A97E;;
+	}
+
+	.checkmark:after {
+	  content: "";
+	  position: absolute;
+	  display: none;
+	}
+
+	.container input:checked ~ .checkmark:after {
+	  display: block;
+	}
+
+	/* W3 Schools: How TO - Custom Checkbox */
+	.container .checkmark:after {
+	  left: 9px;
+	  top: 5px;
+	  width: 5px;
+	  height: 10px;
+	  border: solid white;
+	  border-width: 0 3px 3px 0;
+	  transform: rotate(45deg);
+	}
+
+	.section_row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-left: 15vh;
+		padding-right: 15vh;
+		flex-wrap: nowrap;
+		flex-direction: row;
+	}
+
+	.col_1 {
+		width: 50%;
+		margin: 5%;
+	}
+
+	.col_2 {
+		width: 50%;
+		margin: 5%;
+		align-content: center;
+	}
+
+	.res_grid {
+		padding-top: 3vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.res_row {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.res_col {
+		flex: 1;
+		margin-right: 2vh;
+	 	margin-bottom: 2vh;
+	 	overflow: hidden;
+	 	position: relative;
+	 	background-color: #C3A97E;
+	 	justify-content: center;
+	  	align-items: center;
+	}
+
+	.overlay {
+		z-index: 1;
+		opacity: 0;
+		position: absolute;
+		color: white;
+		display: flex;
+		transition: background 0.3s ease;
+	}
+
+	.res_col:hover .overlay {
+		opacity: 1;
+	}
+
+	.image_link {
+	 	height: 100%;
+	 	width: 100%;
+	 	object-fit: cover;
+	}
+
+	.img_hov:hover {
+		opacity: 0.6;
+	}
+
+	.loc_grid {
+		margin-right: 7%;
+		margin-left: 7%;
+		margin-top: 7%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.loc_item {
+		box-sizing: border-box;
+		width: 25%;
+		text-align: center;
+		margin-bottom: 4%;
+	}
+
+	.loc_item img {
+		border-radius: 8px;
+		width: 80%;
+		height: 80%;
+		object-fit: cover;
+	}
+
+	.loc_item p {
+		margin-top: 8px;
+	}
+}
