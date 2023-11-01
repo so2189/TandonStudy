@@ -380,12 +380,12 @@ label {
 	}
 
 	.resources {
-		font-size: 1vh;
-		line-height: 2vh0px;
+		font-size: .4vh;
+		line-height: 1vh;
 	}
 
 	.resource_head {
-		font-size: 3vh;
+		font-size: 1vh;
 		color: #BD959F;
 	}
 
@@ -401,7 +401,7 @@ label {
 		flex-wrap: nowrap;
 		padding-top: 4vh;
 		padding-bottom: 6px;
-		font-size: 1vh;
+		font-size: .3vh;
 		font-weight: bolder;
 		font-family: 'Red Hat Display';
 		margin-right: 10%;
